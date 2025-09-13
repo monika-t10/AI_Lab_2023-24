@@ -34,10 +34,9 @@ def dfs(visited, graph, node):
 print("Following is the Depth-First Search:")
 dfs(visited, graph, '5')
 
+## OUTPUT:
+<img width="784" height="775" alt="Screenshot 2025-09-13 093233" src="https://github.com/user-attachments/assets/af2a3373-acb2-48f7-982a-e33327aa1345" />
 
-
-### Output:
-<img width="799" height="771" alt="Screenshot 2025-09-13 092311" src="https://github.com/user-attachments/assets/50b5ba8a-cda5-4d47-93d1-9b38cc697bf5" />
 
 
 
