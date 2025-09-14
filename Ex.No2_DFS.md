@@ -1,6 +1,6 @@
 # Ex.No: 2  Implementation of Depth First Search
-### DATE: 26/08/2025                                                                        
-### REGISTER NUMBER : 212223060170
+### DATE: 17.02.2024                                                                           
+### REGISTER NUMBER : 212221060222
 ### AIM: 
 To write a python program to implement Depth first Search. 
 ### Algorithm:
@@ -12,33 +12,29 @@ To write a python program to implement Depth first Search.
 6. Call the dfs function by passing arguments visited, graph and starting node.
 7. Stop the program.
 ### Program:
+```
 graph = {
-    '5': ['3', '7'],
-    '3': ['2', '4'],
-    '7': ['8'],
-    '2': [],
-    '4': ['8'],
-    '8': []
+  '5' : ['3','7'],
+  '3' : ['2', '4'],
+  '7' : ['8'],
+  '2' : [],
+  '4' : ['8'],
+  '8' : []
 }
-
-visited = set()  
-
-def dfs(visited, graph, node):  
+visited = set() # Set to keep track of visited nodes of graph.
+def dfs(visited, graph, node):  #function for dfs 
     if node not in visited:
-        print(node, end=" ")
-        visited.add(node)
-        for neighbour in graph[node]:
-            dfs(visited, graph, neighbour)
-
-
-print("Following is the Depth-First Search:")
-dfs(visited, graph, '5')
-
-## OUTPUT:
-<img width="784" height="775" alt="Screenshot 2025-09-13 093233" src="https://github.com/user-attachments/assets/af2a3373-acb2-48f7-982a-e33327aa1345" />
-
-
-
+        	print (node)
+        	visited.add(node)
+        	for neighbour in graph[node]:
+            	dfs(visited, graph, neighbour)
+# Driver Code
+print("Following is the Depth-First Search")
+dfs(visited, graph, '5')
+```
+### Output:
+<img width="509" height="612" alt="Screenshot 2025-09-14 200725" src="https://github.com/user-attachments/assets/a603b873-a875-41dc-b8a4-ef46f0a9be37" />
 
 ### Result:
 Thus the depth first search order was found sucessfully.
+
