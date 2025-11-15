@@ -1,6 +1,6 @@
 # Ex.No: 13 Machine Learning - Mini Project  
-### DATE: 04/11/24                                                                           
-### REGISTER NUMBER : 212221220041
+### DATE: 28/10/25                                                                           
+### REGISTER NUMBER : 212223060170
 ### AIM: 
 To write a program to train the classifier for Wine Quality Prediction.
 ###  Algorithm:
@@ -98,3 +98,4 @@ print('RMSE:', np.sqrt(metrics.mean_squared_error(y_test, predictions)))
 
 ### Result:
 Thus the system was trained successfully and the prediction was carried out.
+
